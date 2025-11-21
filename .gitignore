@@ -1,0 +1,41 @@
+# Binaries and build output
+/bin/
+/build/
+/dist/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Go build cache
+*.test
+*.out
+
+# Go workspace
+go.work
+go.work.sum
+
+# Vendor folder (if you ever vendor deps)
+vendor/
+
+# Environment variables
+.env
+.env.local
+
+# Logs
+*.log
+
+# IDE / Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Coverage and debugging
+coverage.*
+*.prof
